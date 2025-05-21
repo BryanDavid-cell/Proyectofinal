@@ -40,7 +40,7 @@ nav a {
 }
 
 nav a:hover {
-  color: #ffcc00;
+  color: #ff9f00;
 }
 
 /* Imágenes */
@@ -67,7 +67,7 @@ th, td {
 }
 
 th {
-  background-color: #ffb539;
+  background-color: #ff9f00;
   color: white;
 }
 
