@@ -1,13 +1,13 @@
 /* General */
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #ff9f00;
-  color: #ff9f00;
+  background-color: #000; /* fondo negro */
+  color: #fff; /* texto general blanco */
   margin: 0;
   padding: 0;
 }
 
-/* Contenedor principal centrado */
+/* Contenedor centrado */
 .container {
   max-width: 1000px;
   margin: 0 auto;
@@ -17,21 +17,21 @@ body {
 
 /* Encabezados */
 h1, h2 {
-  color: #ff9f00;
+  color: #ff9f00; /* títulos naranja */
   margin-top: 0;
   text-align: center;
 }
 
 /* Navegación */
 nav {
-  background-color: #ff9f00;
+  background-color: #111;
   padding: 15px 0;
   text-align: center;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1);
 }
 
 nav a {
-  color: white;
+  color: #ff9f00;
   text-decoration: none;
   margin: 0 20px;
   font-weight: bold;
@@ -40,7 +40,7 @@ nav a {
 }
 
 nav a:hover {
-  color: #000000;
+  color: #ffffff;
 }
 
 /* Imágenes */
@@ -50,6 +50,7 @@ img {
   border-radius: 8px;
   margin: 20px auto;
   display: block;
+  border: 2px solid #ff9f00;
 }
 
 /* Tablas */
@@ -57,18 +58,19 @@ table {
   width: 90%;
   border-collapse: collapse;
   margin: 20px auto;
-  background-color: white;
+  background-color: #111;
+  color: #fff;
 }
 
 th, td {
   padding: 12px;
-  border: 1px solid #ccc;
+  border: 1px solid #555;
   text-align: center;
 }
 
 th {
   background-color: #ff9f00;
-  color: white;
+  color: #000; /* texto de encabezado de tabla negro */
 }
 
 /* Videos */
@@ -76,19 +78,20 @@ video {
   display: block;
   margin: 20px auto;
   border-radius: 8px;
-  border: 3px solid #ccc;
+  border: 3px solid #ff9f00;
   max-width: 90%;
 }
 
 /* Formularios */
 form {
-  background-color: white;
+  background-color: #111;
   padding: 20px;
   border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
   max-width: 600px;
   margin: 20px auto;
   text-align: left;
+  color: #fff;
 }
 
 form input, form textarea {
@@ -98,11 +101,13 @@ form input, form textarea {
   border: 1px solid #bbb;
   border-radius: 4px;
   font-size: 14px;
+  background-color: #222;
+  color: #fff;
 }
 
 form input[type="submit"] {
-  background-color: #28a745;
-  color: white;
+  background-color: #ff9f00;
+  color: #000;
   font-size: 16px;
   border: none;
   padding: 10px 20px;
@@ -111,15 +116,15 @@ form input[type="submit"] {
 }
 
 form input[type="submit"]:hover {
-  background-color: #218838;
+  background-color: #e68900;
 }
 
-/* Pie de página opcional */
+/* Pie de página */
 footer {
   text-align: center;
   padding: 20px;
-  background-color: #ff9f00;
-  color: white;
+  background-color: #111;
+  color: #ff9f00;
   margin-top: 40px;
 }
 
