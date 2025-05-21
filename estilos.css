@@ -2,7 +2,7 @@
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-color: #ff9f00;
-  color: #black;
+  color: #ff9f00;
   margin: 0;
   padding: 0;
 }
@@ -24,7 +24,7 @@ h1, h2 {
 
 /* Navegación */
 nav {
-  background-color: #0077cc;
+  background-color: #ff9f00;
   padding: 15px 0;
   text-align: center;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
